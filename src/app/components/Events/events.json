@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Gully G'z at Bobby V's",
+      "date": "2024-04-27",
+      "time": "19:00",
+      "price": "10",
+      "venueName": "Bobby V's Cocktails",
+      "venueStreetAddress": "10624 Katella Ave",
+      "venueCity": "Anaheim",
+      "venueState": "CA",
+      "venueZip": "92804",
+      "description": "With Cosmic Kitten, Casa De Brujas, Feud, The Prince of Eden, Eighth Ball. "
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2024-05-11",
+      "time": "19:00",
+      "price": "10",
+      "venueName": "Regal Inn",
+      "venueStreetAddress": "123 Sample Street",
+      "venueCity": "Lakewood",
+      "venueState": "CA",
+      "venueZip": "90713",
+      "description": "With Wreck'd, Couch $urf, 3rd Rate, God Speed Demons, and Recoil. "
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2024-04-27",
+      "time": "19:00",
+      "price": "10",
+      "venueName": "Regal Inn",
+      "venueStreetAddress": "123 Sample Street",
+      "venueCity": "Lakewood",
+      "venueState": "CA",
+      "venueZip": "90713"
+    }
+  ]

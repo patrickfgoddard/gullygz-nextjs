@@ -1,0 +1,11 @@
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+ 
+#{$a-tags} {
+  color: var(--darkorange);
+  font-weight: bold;
+  transition: all 0.2s;
+}
+#{$a-tags-hover} {
+  color: var(--dark-color);
+}

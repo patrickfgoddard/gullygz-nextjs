@@ -1,0 +1,166 @@
+@use 'links';
+@use 'variables' as v;
+@use 'functions' as f;
+@use 'mixins' as m;
+@use 'utilities';
+
+
+html { 
+  font-family: var(--base-font, Helvetica, Arial, sans-serif);
+  font-size: 62.5%; 
+}
+
+body {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  font-size: 1.8rem;
+  margin: 0 auto;
+  place-content: center;
+}
+
+// Headings
+#{f.headings(1,6)} {
+  color: var(--dark-color);
+  font-family: var(--header-font, cursive);
+  letter-spacing: 0.2ch;
+  margin: 0 0 2rem;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 96rem;
+  text-align: left;
+  padding: 0 2.5rem;
+}
+
+header {
+  padding-top: 4rem;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
+}
+
+h1 {
+  width: fit-content;
+  position: relative;
+  text-align: center;
+  margin-inline: auto;
+
+  &::after {
+    width: 100%;
+    background-color: #fca311;
+    height: 1.5rem;
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    transform: skew(-15deg);
+    left: 0;
+    z-index: -1;
+  }
+}
+
+p {
+  line-height: 1.75;
+}
+
+blockquote {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0;
+
+  cite {
+    margin: 1rem 0;
+    display: block;
+    font-style: normal;
+  }
+
+  a:link,
+  a:visited {
+    color: white;
+  }
+
+  a:hover,
+  a:visited:hover {
+    color: white;
+  }
+}
+
+button {
+  background-color: var(--darkorange);
+  color: var(--light-color);
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.2;
+  
+  &:hover {
+    background-color: var(--orange);
+  }
+}
+
+form {
+  max-width: 60rem;
+
+  label,
+  input,
+  textarea {
+    display: block;
+  }
+
+  input,
+  textarea {
+    margin-block: 1rem 2rem;
+    padding: 1rem;
+    border: 1px solid #999;
+    border-radius: 0.5rem;
+    width: 100%
+  }
+
+  label {
+    font-weight: bold;
+  }
+}
+
+.inline-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  @media only screen and (min-width: 560px) {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.follow {
+  margin-left: 2.5rem;
+
+  svg {
+    fill: var(--orange);
+    width: 2rem;
+    height: 3rem;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+footer {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+@import 'sections';
