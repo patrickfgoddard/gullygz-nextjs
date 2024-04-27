@@ -1,8 +1,8 @@
 [
     {
       "title": "Gully G'z at Bobby V's",
-      "date": "2024-04-27",
-      "time": "19:00",
+      "date": "April 27, 2024",
+      "time": "7:00pm",
       "price": "10",
       "venueName": "Bobby V's Cocktails",
       "venueStreetAddress": "10624 Katella Ave",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Gully G'z at Regal Inn",
-      "date": "2024-05-11",
-      "time": "19:00",
+      "date": "May 11, 2024",
+      "time": "7:00pm",
       "price": "10",
       "venueName": "Regal Inn",
-      "venueStreetAddress": "123 Sample Street",
+      "venueStreetAddress": "6763 E Carson St",
       "venueCity": "Lakewood",
       "venueState": "CA",
       "venueZip": "90713",
@@ -25,11 +25,11 @@
     },
     {
       "title": "Gully G'z at Regal Inn",
-      "date": "2024-04-27",
-      "time": "19:00",
+      "date": "June 29, 2024",
+      "time": "7:00pm",
       "price": "10",
       "venueName": "Regal Inn",
-      "venueStreetAddress": "123 Sample Street",
+      "venueStreetAddress": "6763 E Carson St",
       "venueCity": "Lakewood",
       "venueState": "CA",
       "venueZip": "90713"

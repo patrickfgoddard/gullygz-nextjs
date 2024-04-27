@@ -121,11 +121,25 @@ section {
       font-style: italic;
     }
   }
+}
 
-
+section {
   iframe {
     aspect-ratio: 16 / 9;
     height: 100%;
     width: calc(100% - 5rem);
+  }
+
+  input,
+  textarea {
+    width: calc(100% - 2rem);
+  }
+}
+
+.music {
+  @media only screen and (min-width: 560px) {
+    align-items: flex-start;
+    display: flex;
+    gap: 2rem;
   }
 }
