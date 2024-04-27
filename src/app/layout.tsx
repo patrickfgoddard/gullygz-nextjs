@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import "../../styles/main.scss";
 
 export const metadata: Metadata = {
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <SpeedInsights/>
+      </body>
+      
     </html>
   );
 }
