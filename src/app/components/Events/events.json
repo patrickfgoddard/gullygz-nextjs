@@ -1,17 +1,5 @@
 [
-    {
-      "title": "Gully G'z at Bobby V's",
-      "date": "April 27, 2024",
-      "time": "7:00pm",
-      "price": "10",
-      "venueName": "Bobby V's Cocktails",
-      "venueStreetAddress": "10624 Katella Ave",
-      "venueCity": "Anaheim",
-      "venueState": "CA",
-      "venueZip": "92804",
-      "description": "With Cosmic Kitten, Casa De Brujas, Feud, The Prince of Eden, Eighth Ball. "
-    },
-    {
+  {
       "title": "Gully G'z at Regal Inn",
       "date": "May 11, 2024",
       "time": "7:00pm",
@@ -22,6 +10,30 @@
       "venueState": "CA",
       "venueZip": "90713",
       "description": "With Wreck'd, Couch $urf, 3rd Rate, God Speed Demons, and Recoil. "
+    },
+    {
+      "title": "Gully G'z at Bobby V's",
+      "date": "June 1, 2024",
+      "time": "7:00pm",
+      "price": "10",
+      "venueName": "Bobby V's Cocktails",
+      "venueStreetAddress": "10624 Katella Ave",
+      "venueCity": "Anaheim",
+      "venueState": "CA",
+      "venueZip": "92804",
+      "description": "With The Clowns, The Mormons, Fifi, Orange Lotus, Sin Direccion."
+    },
+    {
+      "title": "Gully G'z at Supply & Demand",
+      "date": "June 5, 2024",
+      "time": "7:00pm",
+      "price": "5",
+      "venueName": "Supply & Demand",
+      "venueStreetAddress": "2500 E. Anaheim St",
+      "venueCity": "Long Beach",
+      "venueState": "CA",
+      "venueZip": "90804",
+      "description": "With The Sea at Midnight, Plague Tower, Northern Labour Party."
     },
     {
       "title": "Gully G'z at Regal Inn",
