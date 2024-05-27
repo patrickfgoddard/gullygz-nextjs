@@ -71,10 +71,11 @@ blockquote {
   background-color: var(--dark-color);
   color: var(--light-color);
   padding: 2rem;
-  border-radius: 1rem;
+  // border-radius: 1rem;
   font-style: italic;
   line-height: 1.5;
   margin: 0;
+  border-left: 1rem solid var(--orange-web);
 
   cite {
     margin: 1rem 0;

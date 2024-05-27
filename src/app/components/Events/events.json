@@ -1,19 +1,9 @@
 [
-  {
-      "title": "Gully G'z at Regal Inn",
-      "date": "May 11, 2024",
-      "time": "7:00pm",
-      "price": "10",
-      "venueName": "Regal Inn",
-      "venueStreetAddress": "6763 E Carson St",
-      "venueCity": "Lakewood",
-      "venueState": "CA",
-      "venueZip": "90713",
-      "description": "With Wreck'd, Couch $urf, 3rd Rate, God Speed Demons, and 390. "
-    },
     {
       "title": "Gully G'z at Bobby V's",
-      "date": "June 1, 2024",
+      "dateYear": "2024",
+      "dateMonth": "June",
+      "dateDay": "01",
       "time": "7:00pm",
       "price": "10",
       "venueName": "Bobby V's Cocktails",
@@ -25,7 +15,9 @@
     },
     {
       "title": "Gully G'z at Supply & Demand",
-      "date": "June 5, 2024",
+      "dateYear": "2024",
+      "dateMonth": "June",
+      "dateDay": "05",
       "time": "7:00pm",
       "price": "5",
       "venueName": "Supply & Demand",
@@ -37,7 +29,9 @@
     },
     {
       "title": "Gully G'z at Regal Inn",
-      "date": "June 29, 2024",
+      "dateYear": "2024",
+      "dateMonth": "June",
+      "dateDay": "29",
       "time": "7:00pm",
       "price": "10",
       "venueName": "Regal Inn",

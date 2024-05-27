@@ -1,5 +1,7 @@
 import { Special_Elite } from "next/font/google";
 
+import styles from './Event.module.scss';
+
 const specialElite = Special_Elite({ 
   subsets: ['latin'],
   weight: "400" 
@@ -8,7 +10,9 @@ const specialElite = Special_Elite({
 interface EventProps {
   /** The text to display inside the button */
   title? : string;
-  date?: string;
+  dateMonth?: string;
+  dateYear?: string;
+  dateDay?: string;
   time?: string;
   price?: string;
   venueName?: string;
@@ -19,19 +23,25 @@ interface EventProps {
   description?: string;
 }
 const Event: React.FC<EventProps> = (props) => { 
-  
+  const dateClasses = [styles.event__date, specialElite.className].join(' ');
   return ( 
-      <div className="event"> 
-        <h3 className={specialElite.className}>{props.date}</h3>
-        <div className="event-description">
-          <div><strong>{props.venueName}</strong></div>
-          <div>{props.venueStreetAddress}</div>
-          <div>{props.venueCity}, {props.venueState} {props.venueZip}</div>
-          <div>Doors at {props.time}. 21+, ${props.price} cover charge.</div>
-          <div>{props.description}</div>
+      <div className={styles.event}>
+        <div className={dateClasses}>
+          <div className={styles.event__date_month}>{props.dateMonth}</div>
+          <div className={styles.event__date_day}>{props.dateDay}</div>
+          <div className={styles.event__date_year}>{props.dateYear}</div>
         </div>
-      </div> 
-  ); 
-} 
+        <div>
+          <div className={styles.event__venue_name}>{props.venueName}</div>
+          <div className={styles.event__venue_address}>
+            {props.venueStreetAddress}<br />
+            {props.venueCity}, {props.venueState} {props.venueZip}
+          </div>
+          <p>Doors at {props.time}. 21+, ${props.price} cover charge.</p>
+          <p className={styles.event__description}>{props.description}</p>
+        </div>
+      </div>
+  );
+}
 
 export default Event;

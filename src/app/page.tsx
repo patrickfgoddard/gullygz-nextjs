@@ -5,6 +5,9 @@ import Section from "./components/Section/Section";
 import Events from "./components/Events/Events";
 import Music from "./components/Music/Music";
 import regalPhoto from "../../public/gully-regal-2024.webp";
+import { SocialIcon } from 'react-social-icons/component'
+import 'react-social-icons/instagram'
+import 'react-social-icons/facebook'
 
 export default function Home() {
   return (
@@ -52,13 +55,16 @@ export default function Home() {
             ></iframe>
         </Section>
         <Section title="Follow">
-          <ul className="inline-list follow">
+          {/* <ul className="inline-list follow">
             <li><a rel="noreferrer" href="https://www.instagram.com/gullygzband" target="_blank">
               Gully G&apos;z on Instagram</a></li>
             <li><a rel="noreferrer" href="https://gullygz.bandcamp.com" target="_blank">
               
               Gully G&apos;z on Bandcamp</a></li>
-          </ul>
+          </ul> */}
+          <SocialIcon url="https://www.instagram.com/gullygzband" />
+          <SocialIcon url="https://www.facebook.com/gullygzband/" />
+
         </Section>
         <Section title="Contact">
           <form name="contact" method="POST" data-netlify="true">
