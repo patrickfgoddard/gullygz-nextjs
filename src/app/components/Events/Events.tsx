@@ -6,7 +6,7 @@ export default function Events() {
   return (
     <>
       {data.map((event) => (
-        <Event key={event.date} {...event} />
+        <Event key={event.dateYear + event.dateMonth + event.dateDay} {...event} />
       ))}
     </>
   )
