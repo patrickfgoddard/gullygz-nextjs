@@ -50,17 +50,17 @@ h1 {
   text-align: center;
   margin-inline: auto;
 
-  &::after {
-    width: 100%;
-    background-color: #fca311;
-    height: 1.5rem;
-    content: '';
-    position: absolute;
-    bottom: 1rem;
-    transform: skew(-15deg);
-    left: 0;
-    z-index: -1;
-  }
+  // &::after {
+  //   width: 100%;
+  //   background-color: #fca311;
+  //   height: 1.5rem;
+  //   content: '';
+  //   position: absolute;
+  //   bottom: 1rem;
+  //   transform: skew(-15deg);
+  //   left: 0;
+  //   z-index: -1;
+  // }
 }
 
 p {
@@ -95,7 +95,8 @@ blockquote {
 }
 
 button {
-  background-color: var(--darkorange);
+  background-color: #333;
+  transition: background-color 0.2s;
   color: var(--light-color);
   border: 0;
   border-radius: 5px;

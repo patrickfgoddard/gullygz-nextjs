@@ -15,7 +15,7 @@ export default function Home() {
       <Header />  
       <main>
         {/* Intro */}
-        <Section>
+        <Section title="Bio">
           <div className="intro">
             <figure>
               <Image 
@@ -26,18 +26,16 @@ export default function Home() {
               <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
             </figure>
             <div className="intro-copy">
-              <p><strong>Gully G&apos;z</strong> is a three-piece rock band from Long Beach, CA.</p>
-              <p>Formed in 2021, Matthew Lucca (drums), Julie Goforth (bass) and Patrick Goddard (guitar, vocals) were members of punk and roll band, <span className="name-drop">Stingray Barbie</span>, who had a mix of covers and originals and played frequently around Long Beach and Orange County.</p>
               
-            <p>Rising from the ashes of COVID and their former band, Gully G&apos;z have played a handful of shows throughout Long Beach, including at various private parties, <a rel="noreferrer" target="_blank"  href="https://alexsbar.com/">Alex&apos;s Bar</a>, <a rel="noreferrer" target="_blank" href="https://www.instagram.com/vine_lb/">Vine</a>, Dizzy&apos;s On Vinyl, B&apos;s Cocktails, and Regal Inn. They released their first EP, <a rel="noreferrer" target="_blank" href="https://gullygz.bandcamp.com/album/eliminated">Eliminated</a>, in November 2021.</p>
+              <p><strong>Gully G’z</strong> are a rock trio from Long Beach, CA. Their songs are a fertile stew of indie and post-pop-cow-surf punk. Their debut EP, <a href="https://gullygz.bandcamp.com/album/eliminated"><em>Eliminated</em></a>, cross-pollinates The Wipers, Replacements, Dick Dale, Meat Puppets, and Husker Du. They fit nicely on bills with cathartic punk rawk, as well as jangly indie pop, and demented, acid-tinged country. </p>
+              <p>Established in 2021, Gully G’z rose from the ashes of Covid and the demise of their previous band, Stingray Barbie, with a fresh batch of songs and determination to soldier on in the face of an uncertain future.</p>
 
-            <p>Gully G&apos;z can be best described as indie rock/post pop cow surf punk.</p>
-
+              <p>They are currently gigging around LA and OC. Feel free to connect!</p>
+            </div>
             <blockquote>
               &quot;Think Husker Du and Meat Puppets getting together for a jam in Orange County.&quot;
               <cite>Matt Lynch of <a href="https://mysteriousmammal.com/">Mysterious Mammal Recording</a></cite>
             </blockquote>
-            </div>
           </div>
         </Section>
         <Section title="Shows">

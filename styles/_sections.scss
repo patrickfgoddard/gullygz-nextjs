@@ -39,16 +39,34 @@ section {
 .intro {
   @media only screen and (min-width: 768px) {
     display: grid;
-    grid-template-columns: 35rem auto;
-  }
+    grid-template-columns: auto 35rem;
+    gap: 2rem;
+    grid-template-areas: 
+    "text figure"
+    "text blockquote"; 
 
-  > * {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    h2 {
+      margin: 2.5rem 0;
+      grid-area: header;
+    }
+
+    .intro-copy {
+      grid-area: text;
+      font-size: 2.4rem;
+
+      > p:first-child {
+        margin-block-start: 0;
+      }
+    }
+
+    blockquote {
+      grid-area: blockquote;
+    } 
   }
 
   figure {
-    grid-column: 1 / 2;
+    grid-area: figure;
+    margin: 0;
 
     figcaption {
       font-size: 1.4rem;
@@ -64,7 +82,6 @@ section {
     }
   }
 }
-
 
 .video {
   .youtube-video-place {
