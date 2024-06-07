@@ -21,6 +21,12 @@ interface EventProps {
   time?: string;
 }
 
+function getDayOfWeek(date: Date) {
+  const dayOfWeek = new Date(date).getDay();    
+  return isNaN(dayOfWeek) ? null : 
+    ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][dayOfWeek];
+}
+
 const Event: React.FC<EventProps> = (props) => { 
   const dateClasses = [styles.event__date, specialElite.className].join(' ');
 
@@ -29,16 +35,17 @@ const Event: React.FC<EventProps> = (props) => {
   const dateMonth = date.toLocaleString('default', { month: 'long' });
   const dateDay = date.getDate();
   const dateTimestamp = date.getHours();
+  const dayOfWeek = getDayOfWeek(date);
 
   return ( 
       <div className={styles.event}>
         <div className={dateClasses}>
-          <div className={styles.event__date_month}>{dateMonth}</div>
-          <div className={styles.event__date_day}>{dateDay}</div>
+          <div className={styles.event__date_month}>{dayOfWeek}</div>
+          <div>{dateMonth} {dateDay}</div>
           <div className={styles.event__date_year}>{dateYear}</div>
         </div>
         <div>
-          <div className={styles.event__venue_name}>{props.venueName}</div>
+          <div className={`${styles.event__venue_name} ${specialElite.className}`}>{props.venueName}</div>
           <div className={styles.event__venue_address}>
             {props.venueStreetAddress}<br />
             {props.venueCity}, {props.venueState} {props.venueZip}

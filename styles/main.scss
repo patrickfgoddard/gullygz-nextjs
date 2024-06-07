@@ -4,7 +4,6 @@
 @use 'mixins' as m;
 @use 'utilities';
 
-
 html { 
   font-family: var(--base-font, Helvetica, Arial, sans-serif);
   font-size: 62.5%; 
@@ -36,8 +35,11 @@ footer {
 }
 
 header {
-  padding-top: 4rem;
   text-align: center;
+
+  @media screen and (min-width: 560px) {
+    padding-top: 4rem;
+  }
 
   img {
     width: 100%;
@@ -49,6 +51,12 @@ h1 {
   position: relative;
   text-align: center;
   margin-inline: auto;
+  font-size: 1em;
+
+  @media screen and (min-width: 560px) {
+    font-size: 2em;
+    
+  }
 
   // &::after {
   //   width: 100%;

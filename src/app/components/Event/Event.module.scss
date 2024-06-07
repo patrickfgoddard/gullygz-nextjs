@@ -1,6 +1,6 @@
 // @forward '../../styles/variables';
 .event {
-  margin-block-end: 2rem;
+  margin-block-end: 4rem;
 
   @media only screen and (min-width: 560px) {
     align-items: center;
@@ -13,7 +13,12 @@
     font-weight: bold;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
+
+    > *:not(:last-child)::after {
+      content: ',';
+    }
     
     @media only screen and (min-width: 560px) {
       display: flex;
@@ -21,7 +26,11 @@
       justify-content: space-between;
       border-right: 1px solid var(--dark-color);
       margin-bottom: 0.5rem;
-      width: 10rem;
+      width: 15rem;
+
+      > *:not(:last-child)::after {
+        content: '';
+      }
     }
     
   }
