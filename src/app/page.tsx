@@ -31,6 +31,7 @@ export default function Home() {
               <p>Established in 2021, Gully G’z rose from the ashes of Covid and the demise of their previous band, Stingray Barbie, with a fresh batch of songs and determination to soldier on in the face of an uncertain future.</p>
 
               <p>They are currently gigging around LA and OC. Feel free to connect!</p>
+              <p>Gully G'z is Julie Goforth - bass, Matt Lucca - Drums, Patrick Goddard - Guitar/vocals.</p>
             </div>
             <blockquote>
               &quot;Think Husker Du and Meat Puppets getting together for a jam in Orange County.&quot;
