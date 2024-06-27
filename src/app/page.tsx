@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Header from "./components/Header/Header";
 import Section from "./components/Section/Section";
 import Events from "./components/Events/Events";
@@ -18,11 +17,13 @@ export default function Home() {
         <Section title="Bio">
           <div className="intro">
             <figure>
-              <Image 
+              <Image
                 src={regalPhoto}
-                alt="Photo of Gully G'z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L." 
+                alt="Photo of Gully G'z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L."
                 width={350}
-                height={197} />
+                height={197}
+                priority={true}
+              />
               <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
             </figure>
             <div className="intro-copy">
