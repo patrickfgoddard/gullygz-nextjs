@@ -13,12 +13,11 @@ export default function Header () {
       <Image
         src={gullygzLogo}
         alt="Gully G'z Logo"
-        // className={styles.vercelLogo}
         width={400}
         height={188}
         priority
       />
-      <h1 className={specialElite.className}><span className="sr-only">Gully G&apos;z - </span>Rock Band from Long Beach, CA</h1>
+      <h1 className={specialElite.className}><span className="sr-only">Gully G&apos;z - </span>Long Beach Rock Trio</h1>
     </header>
   )
 }
