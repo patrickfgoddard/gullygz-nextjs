@@ -129,5 +129,41 @@
       "venueZip": "90814",
       "description": "With Celebrity Telethon from Portland, OR!",
       "time": "8:00 PM"
+    },
+    {
+      "title": "Gully G'z at Bobby V's",
+      "date": "2024-09-28T19:00:00Z",
+      "price": "10",
+      "venueName": "Bobby V's Cocktails",
+      "venueStreetAddress": "10624 Katella Ave",
+      "venueCity": "Anaheim",
+      "venueState": "CA",
+      "venueZip": "92804",
+      "description": "With The Sea At Midnight, Cheap Machines, Orange Lotus, HRM, Almost Edible",
+      "time": "7:00 PM"
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2024-10-12T19:00:00Z",
+      "price": "$10",
+      "venueName": "Regal Inn",
+      "venueStreetAddress": "6763 Carson St",
+      "venueCity": "Lakewood",
+      "venueState": "CA",
+      "venueZip": "90713",
+      "description": "",
+      "time": "7:00 PM"
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2024-11-15T19:00:00Z",
+      "price": "$10",
+      "venueName": "Regal Inn",
+      "venueStreetAddress": "6763 Carson St",
+      "venueCity": "Lakewood",
+      "venueState": "CA",
+      "venueZip": "90713",
+      "description": "With The Blob",
+      "time": "7:00 PM"
     }
   ]
