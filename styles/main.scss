@@ -20,7 +20,7 @@ body {
 // Headings
 #{f.headings(1,6)} {
   color: var(--dark-color);
-  font-family: var(--header-font, cursive);
+  font-family: var(--font-header);
   letter-spacing: 0.2ch;
   margin: 0 0 2rem;
 }

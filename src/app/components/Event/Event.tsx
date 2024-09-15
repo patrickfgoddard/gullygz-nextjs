@@ -1,11 +1,4 @@
-import { Special_Elite } from "next/font/google";
-
 import styles from './Event.module.scss';
-
-const specialElite = Special_Elite({ 
-  subsets: ['latin'],
-  weight: "400" 
-});
 
 interface EventProps {
   /** The text to display inside the button */
@@ -28,7 +21,7 @@ function getDayOfWeek(date: Date) {
 }
 
 const Event: React.FC<EventProps> = (props) => { 
-  const dateClasses = [styles.event__date, specialElite.className].join(' ');
+  const dateClasses = [styles.event__date].join(' ');
 
   const date = new Date(props.date);
   const dateYear = date.getFullYear();
@@ -45,7 +38,7 @@ const Event: React.FC<EventProps> = (props) => {
           <div className={styles.event__date_year}>{dateYear}</div>
         </div>
         <div>
-          <div className={`${styles.event__venue_name} ${specialElite.className}`}>{props.venueName}</div>
+          <div className={`${styles.event__venue_name}`}>{props.venueName}</div>
           <div className={styles.event__venue_address}>
             {props.venueStreetAddress}<br />
             {props.venueCity}, {props.venueState} {props.venueZip}

@@ -1,12 +1,4 @@
-import { Special_Elite } from "next/font/google";
-
 import styles from './PreviousEvent.module.scss';
-
-const specialElite = Special_Elite({ 
-  subsets: ['latin'],
-  weight: "400" 
-});
-
 interface EventProps {
   /** The text to display inside the button */
   title? : string;
@@ -28,8 +20,6 @@ function getDayOfWeek(date: Date) {
 }
 
 const Event: React.FC<EventProps> = (props) => { 
-  const dateClasses = styles.event__date;
-
   const date = new Date(props.date);
   const dateYear = date.getFullYear();
   const dateMonth = date.toLocaleString('default', { month: 'long' });
@@ -39,7 +29,7 @@ const Event: React.FC<EventProps> = (props) => {
 
   return ( 
       <div className={styles.previous_event}>
-        <div className={dateClasses}>
+        <div>
           {dayOfWeek}, {dateMonth} {dateDay}, {dateYear}
         </div>
         <div>

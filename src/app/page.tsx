@@ -7,12 +7,7 @@ import regalPhoto from "../../public/gully-regal-2024.webp";
 import { SocialIcon } from 'react-social-icons/component'
 import 'react-social-icons/instagram'
 import 'react-social-icons/facebook'
-import { Special_Elite } from "next/font/google";
 
-const specialElite = Special_Elite({ 
-  subsets: ['latin'],
-  weight: "400" 
-});
 
 export default function Home() {
   return (
@@ -32,11 +27,11 @@ export default function Home() {
               <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
             </figure>
             <div className="intro-copy">
-            <h3 className={specialElite.className}>Indie Rock with a Surf Punk Twist</h3>
+            <h3>Indie Rock with a Surf Punk Twist</h3>
             <p>Gully G&#39;z are a high-energy rock trio from Long Beach, CA, blending indie and post-punk with surf rock elements. Their debut EP, <a href="https://gullygz.bandcamp.com/album/eliminated">Eliminated</a>, combines influences from The Wipers, Replacements, Dick Dale, Meat Puppets, and Husker Du.</p>
-            <h3  className={specialElite.className}>Established in 2021</h3>
+            <h3>Established in 2021</h3>
             <p>Rising from the ashes of Covid and their previous band, Stingray Barbie, Gully G&#39;z bring a fresh batch of songs and determination to the LA and OC music scene.</p>
-            <h3  className={specialElite.className}>Catch them Live</h3>
+            <h3>Catch them Live</h3>
             <p>Gully G&#39;z are currently gigging around LA and OC. Follow them on social media for upcoming shows and updates!</p>
               
             </div>
