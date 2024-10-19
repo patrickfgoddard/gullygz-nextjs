@@ -10,8 +10,10 @@ html {
 }
 
 body {
-  background-color: var(--light-color);
-  color: var(--dark-color);
+  // background-color: var(--light-color);
+  background-color: var(--dark-color);
+  // color: var(--dark-color);
+  color: var(--light-color);
   font-size: 1.8rem;
   margin: 0 auto;
   place-content: center;
@@ -19,7 +21,7 @@ body {
 
 // Headings
 #{f.headings(1,6)} {
-  color: var(--dark-color);
+  // color: var(--light-color);
   font-family: var(--font-header);
   letter-spacing: 0.2ch;
   margin: 0 0 2rem;
@@ -107,7 +109,7 @@ button {
   background-color: #333;
   transition: background-color 0.2s;
   color: var(--light-color);
-  border: 0;
+  border: 1px solid #fff;
   border-radius: 5px;
   padding: 1rem 2rem;
   cursor: pointer;
