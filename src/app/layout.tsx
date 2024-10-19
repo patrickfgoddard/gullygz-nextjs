@@ -3,6 +3,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "../../styles/main.scss";
 import { Podkova } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 const headerFont = Podkova({
   weight: '400',
   style: ['normal'],
@@ -27,6 +29,7 @@ export default function RootLayout({
         {children}
         <SpeedInsights/>
       </body>
+      <GoogleAnalytics gaId="G-X992DXTYBX" />
       
     </html>
   );

@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "@mui/icons-material": "^5.15.15",
+    "@next/third-parties": "^14.2.15",
     "@vercel/speed-insights": "^1.0.10",
-    "next": "^14.2.3",
+    "next": "^14.2.15",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-social-icons": "^6.16.0"
