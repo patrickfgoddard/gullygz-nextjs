@@ -15,7 +15,7 @@ section {
     line-height: 1;
     gap: 2rem;
     margin: 5rem 0;
-    color: var(--orange-web);
+    color: white;
   
     &::before,
     &::after {
@@ -24,9 +24,8 @@ section {
       display: inline-block;
       bottom: 2rem;
       left: 1rem;
-      // background-color: #fca311;
-      background-color: #ffffff;
-      height: 1.5rem;
+      background-color: #999;
+      height: 0.75rem;
       z-index: -1;
       width: 5rem;
     }
