@@ -153,5 +153,29 @@
       "venueZip": "90713",
       "description": "With The Blob",
       "time": "7:00 PM"
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2024-12-20T19:00:00Z",
+      "price": "10",
+      "venueName": "Regal Inn",
+      "venueStreetAddress": "6763 Carson St",
+      "venueCity": "Lakewood",
+      "venueState": "CA",
+      "venueZip": "90713",
+      "description": "EP Release Party!!",
+      "time": "7:00 PM"
+    },
+    {
+      "title": "Gully G'z at Bobby V's",
+      "date": "2025-01-04T19:00:00Z",
+      "price": "10",
+      "venueName": "Bobby V's Cocktails",
+      "venueStreetAddress": "10624 Katella Ave",
+      "venueCity": "Anaheim",
+      "venueState": "CA",
+      "venueZip": "92804",
+      "description": "",
+      "time": "7:00 PM"
     }
   ]
