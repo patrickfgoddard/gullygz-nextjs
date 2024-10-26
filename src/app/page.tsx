@@ -28,11 +28,7 @@ export default function Home() {
             </figure>
             <div className="intro-copy">
             <h3>Indie Rock with a Surf Punk Twist</h3>
-            <p>Gully G&#39;z are a high-energy rock trio from Long Beach, CA, blending indie and post-punk with surf rock elements. Their debut EP, <a href="https://gullygz.bandcamp.com/album/eliminated">Eliminated</a>, combines influences from The Wipers, Replacements, Dick Dale, Meat Puppets, and Husker Du.</p>
-            <h3>Established in 2021</h3>
-            <p>Rising from the ashes of Covid and their previous band, Stingray Barbie, Gully G&#39;z bring a fresh batch of songs and determination to the LA and OC music scene.</p>
-            <h3>Catch them Live</h3>
-            <p>Gully G&#39;z are currently gigging around LA and OC. Follow them on social media for upcoming shows and updates!</p>
+            <p>Gully G&apos;z is a three-piece band from Long Beach, CA. Their songs are a fertile stew of indie rock and post-pop-cow-surf punk. Their combined experience from previous acts, Gully G&apos;z is about friendship and reflection on life through authentic rock and roll.</p>
               
             </div>
             <blockquote>

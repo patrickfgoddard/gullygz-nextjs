@@ -141,6 +141,8 @@ section {
 }
 
 .music {
+  margin-bottom: 2rem;
+
   @media only screen and (min-width: 560px) {
     align-items: flex-start;
     display: flex;
