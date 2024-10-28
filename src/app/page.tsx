@@ -16,25 +16,41 @@ export default function Home() {
       <main>
         <Section title="Bio">
           <div className="intro">
-            <figure>
-              <Image
-                src={regalPhoto}
-                alt="Photo of Gully G'z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L."
-                width={350}
-                height={197}
-                priority={true}
-              />
-              <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
-            </figure>
+            <aside>
+              <figure>
+                <Image
+                  src={regalPhoto}
+                  alt="Photo of Gully G'z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L."
+                  width={350}
+                  height={197}
+                  priority={true}
+                />
+                <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
+              </figure>
+              <blockquote>
+                &quot;Think Husker Du and Meat Puppets getting together for a jam in Orange County.&quot;
+                <cite>Matt Lynch of <a href="https://mysteriousmammal.com/">Mysterious Mammal Recording</a></cite>
+              </blockquote>
+            </aside>
+            
+            
             <div className="intro-copy">
             <h3>Indie Rock with a Surf Punk Twist</h3>
             <p>Gully G&apos;z is a three-piece band from Long Beach, CA. Their songs are a fertile stew of indie rock and post-pop-cow-surf punk. Their combined experience from previous acts, Gully G&apos;z is about friendship and reflection on life through authentic rock and roll.</p>
+            <h3>New EP, Attention Shoppers, out Dec 2024!</h3>
+            <iframe 
+                title="bandcamp player"
+                style={{
+                  border: 0, 
+                  width: '350px', 
+                  height: '274px',
+                }} 
+                src="https://bandcamp.com/EmbeddedPlayer/album=3387168126/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/tracklist=true/tracks=4197969540,710264202,35402316,1836268326/esig=56ac4a99b4a1154bbfb35d06b03bc2b2/" seamless>
+                    <a href="https://gullygz.bandcamp.com/album/attention-shoppers">Attention Shoppers by Gully G&#39;z</a>
+              </iframe>
               
             </div>
-            <blockquote>
-              &quot;Think Husker Du and Meat Puppets getting together for a jam in Orange County.&quot;
-              <cite>Matt Lynch of <a href="https://mysteriousmammal.com/">Mysterious Mammal Recording</a></cite>
-            </blockquote>
+          
           </div>
         </Section>
         <Section title="Shows">
