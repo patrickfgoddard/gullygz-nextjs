@@ -15,25 +15,7 @@ export default function Home() {
       <Header />  
       <main>
         <Section title="Bio">
-          <div className="intro">
-            <aside>
-              <figure>
-                <Image
-                  src={regalPhoto}
-                  alt="Photo of Gully G'z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L."
-                  width={350}
-                  height={197}
-                  priority={true}
-                />
-                <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
-              </figure>
-              <blockquote>
-                &quot;Think Husker Du and Meat Puppets getting together for a jam in Orange County.&quot;
-                <cite>Matt Lynch of <a href="https://mysteriousmammal.com/">Mysterious Mammal Recording</a></cite>
-              </blockquote>
-            </aside>
-            
-            
+          <div className="intro">      
             <div className="intro-copy">
             <h3>Indie Rock with a Surf Punk Twist</h3>
             <p>Gully G&apos;z is a three-piece band from Long Beach, CA. Their songs are a fertile stew of indie rock and post-pop-cow-surf punk. Their combined experience from previous acts, Gully G&apos;z is about friendship and reflection on life through authentic rock and roll.</p>
@@ -50,7 +32,22 @@ export default function Home() {
               </iframe>
               
             </div>
-          
+            <aside>
+              <figure>
+                <Image
+                  src={regalPhoto}
+                  alt="Photo of Gully G'z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L."
+                  width={350}
+                  height={197}
+                  priority={true}
+                />
+                <figcaption>Gully G&apos;z performing live at Regal Inn in Lakewood, CA, April 13, 2024. Photo by Juliet L.</figcaption>
+              </figure>
+              <blockquote>
+                &quot;Think Husker Du and Meat Puppets getting together for a jam in Orange County.&quot;
+                <cite>Matt Lynch of <a href="https://mysteriousmammal.com/">Mysterious Mammal Recording</a></cite>
+              </blockquote>
+            </aside>
           </div>
         </Section>
         <Section title="Shows">
