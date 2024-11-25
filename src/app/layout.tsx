@@ -14,8 +14,8 @@ const headerFont = Podkova({
 })
 
 export const metadata: Metadata = {
-  title: "Gully G'z - Gully G'z - Rock Band from Long Beach, CA",
-  description: "Dive into the world of Gully G'z, a rock band hailing from Long Beach CA. Learn about their music, upcoming shows, and more on our site.",
+  title: "Gully G'z - Rock Band from Long Beach, CA",
+  description: "Dive into the world of Gully G'z, an indie rock band with a surf punk twist hailing from Long Beach CA. Learn about their music, upcoming shows, and more on our site.",
 };
 
 export default function RootLayout({
@@ -30,7 +30,6 @@ export default function RootLayout({
         <SpeedInsights/>
       </body>
       <GoogleAnalytics gaId="G-X992DXTYBX" />
-      
     </html>
   );
 }
