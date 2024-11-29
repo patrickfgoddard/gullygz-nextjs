@@ -41,7 +41,7 @@ export function BlockPage() {
 
       {/* Google Analytics Script */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-X992DXTYBX"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -50,7 +50,7 @@ export function BlockPage() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'G-X992DXTYBX');
         `}
       </Script>
     </div>
