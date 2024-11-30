@@ -13,9 +13,9 @@ const ultra = Ultra({
 export default function Music() {
   return (
     <section id="music" className="py-16 bg-slate-100 dark:bg-slate-900">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-6 max-w-sm md:max-w-3xl">
             <h2 className={`text-3xl font-bold mb-8 text-center text-slate-800 dark:text-white ${ultra.className}`}>Our Music</h2>
-            <div className="flex justify-center gap-8">
+            <div className="grid-cols-1 md:grid-cols-2 grid gap-8">
               {[
                 { title: 'Attention Shoppers', cover: '/images/attentionshoppers-cover-250.jpg?width=300', spotifyLink: 'https://open.spotify.com/album/0jxXO4ntEZ5yNGkYmUTUIv?si=46zYuSe0RyiPkH9Tx33qnA', bandcampLink: 'https://gullygz.bandcamp.com/album/attention-shoppers' },
                 { title: 'Eliminated', cover: '/images/eliminated-cover-250.jpg?height=300&width=300', spotifyLink: 'https://open.spotify.com/album/0jxXO4ntEZ5yNGkYmUTUIv?si=46zYuSe0RyiPkH9Tx33qnA', bandcampLink: 'https://gullygz.bandcamp.com/album/eliminated' },

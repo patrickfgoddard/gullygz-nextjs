@@ -52,10 +52,9 @@ const Show: React.FC<ShowProps> = (props) => {
   }
 
   return ( 
-    <Card className="flex gap-8">
+    <Card className="flex gap-8 my-8 md:my-0">
       <div>
         <CardHeader>
-        
           <CardTitle className={ultra.className}>
           <div>{dayOfWeek}, {dateMonth} {dateDay}, {dateYear}</div>
           </CardTitle>
