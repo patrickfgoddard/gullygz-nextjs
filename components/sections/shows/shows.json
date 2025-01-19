@@ -179,5 +179,31 @@
       "description": "",
       "time": "7:00 PM",
       "flyer": "/images/jan42024-flyer.jpg"
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2025-03-15T19:00:00Z",
+      "price": "10",
+      "venueName": "Regal Inn",
+      "venueStreetAddress": "6763 Carson St",
+      "venueCity": "Lakewood",
+      "venueState": "CA",
+      "venueZip": "90713",
+      "description": "With Jagged Jein, The Pangs, Palm Sugar, Freedom Curse, The Lucid Night",
+      "time": "7:00 PM",
+      "flyer": "/images/regal-march152025.JPG.webp"
+    },
+    {
+      "title": "Gully G'z at Regal Inn",
+      "date": "2025-03-29T19:00:00Z",
+      "price": "10",
+      "venueName": "DiPiazzas",
+      "venueStreetAddress": "5205 Pacific Coast Hwy",
+      "venueCity": "Long Beach",
+      "venueState": "CA",
+      "venueZip": "90804",
+      "description": "More info to follow...",
+      "time": "7:00 PM"
     }
+    
   ]

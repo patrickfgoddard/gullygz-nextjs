@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import localFont from "next/font/local";
-import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 
 const geistSans = localFont({
@@ -33,7 +32,6 @@ export default function RootLayout({
         {children}
         <SpeedInsights/>
       </body>
-      <GoogleAnalytics gaId="G-X992DXTYBX" />
     </html>
   );
 }
