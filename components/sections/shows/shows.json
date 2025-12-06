@@ -255,6 +255,18 @@
       "venueZip": "90804",
       "description": "More info to follow..."
       
+    },
+    {
+      "title": "Gully G'z at DiPiazzas",
+      "date": "2026-01-09T14:00:00Z",
+      "price": "10",
+      "venueName": "DiPiazzas",
+      "venueStreetAddress": "5205 Pacific Coast Hwy",
+      "venueCity": "Long Beach",
+      "venueState": "CA",
+      "venueZip": "90804",
+      "description": "With Sin Direccion, LMA, Houze of Fury"
+      
     }
     
   ]
