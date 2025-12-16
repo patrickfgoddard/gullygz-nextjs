@@ -11,7 +11,7 @@ const ultra = Ultra({
 
 export default function About() {
   return (
-    <footer className="bg-slate-800 text-white py-8">
+    <footer className="bg-[#333333] text-white py-8">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-8 md:mb-0">

@@ -10,11 +10,11 @@ const ultra = Ultra({
 
 export function Intro() {
   return (
-    <section id="home" className="py-8 grid place-items-center text-center">
+    <section id="home" className="bg-[#333333] text-white py-8 grid place-items-center text-center">
       <Image 
-        src={'/images/gully-gz-logo-blackonwhite.png'} 
+        src={'/images/gully-gz-logo.svg'} 
         alt="Gully G'z logo" 
-        width="400" 
+        width="300" 
         height="188" 
         priority={true}
       />

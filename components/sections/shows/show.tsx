@@ -69,7 +69,7 @@ const Show: React.FC<ShowProps> = (props) => {
             <div>{props.description}</div>
             {!props.flyer ? null : 
               <Dialog>
-                <DialogTrigger className="mt-8 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 border border-amber-700 rounded">View Flyer</DialogTrigger>
+                <DialogTrigger className="transition-all mt-8 bg-[#333333] hover:bg-[#eeeeee] hover:text-black text-white font-bold py-2 px-4 border border-[#333333] hover:border border-[#cccccc] rounded">View Flyer</DialogTrigger>
                 <DialogContent  className="bg-black display: flex flex-col items-center justify-center"
                 
                 >

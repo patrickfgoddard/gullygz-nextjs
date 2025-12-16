@@ -34,7 +34,7 @@ export function BlockPage() {
         <About />
         <Shows />
         <Music />
-        <Contact />
+        {/* <Contact /> */}
       </main>
 
      <Footer />
