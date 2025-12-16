@@ -259,6 +259,19 @@
     },
     {
       "title": "Gully G'z at DiPiazzas",
+      "date": "2025-09-04T14:00:00Z",
+      "price": "10",
+      "venueName": "DiPiazzas",
+      "venueStreetAddress": "5205 Pacific Coast Hwy",
+      "venueCity": "Long Beach",
+      "venueState": "CA",
+      "venueZip": "90804",
+      "description": "Snout, Houze of Fury, No Solution, Surrounded By Strangers",
+      "time": "7:00 PM"
+      
+    },
+    {
+      "title": "Gully G'z at DiPiazzas",
       "date": "2026-01-09T14:00:00Z",
       "price": "10",
       "venueName": "DiPiazzas",
